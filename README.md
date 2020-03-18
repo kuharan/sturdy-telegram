@@ -23,4 +23,4 @@ for rsvp feature.
 
 # About Me
 Hello, my name is Kuharan. I am a Software Engineer at [PWC](https://www.pwc.com/). I enjoy making teeny tiny applications in
-my leisure time and this is one of them. Now that my wedding is over, I am open-sourcing it. Hope you like it!
+my leisure time and this is one of them. 
