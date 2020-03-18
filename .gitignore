@@ -35,7 +35,3 @@ typings/
 .env
 .sass-cache/
 *.css.map
-
-# Dependency directories
-node_modules/
-jspm_packages/
