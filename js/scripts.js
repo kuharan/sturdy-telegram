@@ -137,7 +137,7 @@ $(document).ready(function () {
     });
 
     /********************** Social Share buttons ***********************/
-    // var share_bar = document.getElementsByClassName('share-bar');
+    var share_bar = document.getElementsByClassName('share-bar');
     // var po = document.createElement('script');
     // po.type = 'text/javascript';
     // po.async = true;
@@ -145,21 +145,21 @@ $(document).ready(function () {
     // var s = document.getElementsByTagName('script')[0];
     // s.parentNode.insertBefore(po, s);
 
-    // for (var i = 0; i < share_bar.length; i++) {
-    //     var html = '<iframe allowtransparency="true" frameborder="0" scrolling="no"' +
-    //         'src="https://platform.twitter.com/widgets/tweet_button.html?url=' + encodeURIComponent(window.location) + '&amp;text=' + encodeURIComponent(document.title) + '&amp;via=kuharan&amp;hashtags=kuharanayindrilla&amp;count=horizontal"' +
-    //         'style="width:105px; height:21px;">' +
-    //         '</iframe>' +
+    for (var i = 0; i < share_bar.length; i++) {
+        var html = '<iframe allowtransparency="true" frameborder="0" scrolling="no"' +
+            'src="https://platform.twitter.com/widgets/tweet_button.html?url=' + /*encodeURIComponent(window.location) +*/ '&amp;text=' + encodeURIComponent(document.title) + '&amp;via=kuharan&amp;hashtags=kuharanayindrilla&amp;count=horizontal"' +
+            'style="width:105px; height:21px;">' +
+            '</iframe>';
 
-    //         '<iframe src="//www.facebook.com/plugins/like.php?href=' + encodeURIComponent(window.location) + '&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=21&amp;appId=101094500229731&amp;width=150" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:150px; height:21px;" allowTransparency="true"></iframe>' +
+            // '<iframe src="//www.facebook.com/plugins/like.php?href=' + encodeURIComponent(window.location) + '&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=21&amp;appId=101094500229731&amp;width=150" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:150px; height:21px;" allowTransparency="true"></iframe>' +
 
-    //         '<div class="g-plusone" data-size="medium"></div>';
+            // '<div class="g-plusone" data-size="medium"></div>';
 
-    //     '<iframe src="https://plusone.google.com/_/+1/fastbutton?bsv&amp;size=medium&amp;url=' + encodeURIComponent(window.location) + '" allowtransparency="true" frameborder="0" scrolling="no" title="+1" style="width:105px; height:21px;"></iframe>';
+        // '<iframe src="https://plusone.google.com/_/+1/fastbutton?bsv&amp;size=medium&amp;url=' + encodeURIComponent(window.location) + '" allowtransparency="true" frameborder="0" scrolling="no" title="+1" style="width:105px; height:21px;"></iframe>';
 
-    //     share_bar[i].innerHTML = html;
-    //     share_bar[i].style.display = 'inline-block';
-    // }
+        share_bar[i].innerHTML = html;
+        share_bar[i].style.display = 'inline-block';
+    }
 
     /********************** Embed youtube video *********************/
     $('.player').YTPlayer();
@@ -197,7 +197,7 @@ $(document).ready(function () {
             end: new Date('Apr 17, 2020 00:00'),
 
             // Event Address
-            address: 'The Fern Residency, Kolkata',
+            address: 'The Jal Mahal & The Fern Residency, Kolkata',
 
             // Event Description
             description: "We can't wait to see you on our big day. For any queries or issues contact me at +91 8777235636 or +91 9091058637."
@@ -254,12 +254,12 @@ $(document).ready(function () {
 //     var la_fiesta = {lat: 22.6220626, lng: 88.4461132};
 //     var map = new google.maps.Map(document.getElementById('map-canvas'), {
 //         zoom: 15,
-//         center: la_fiesta,
+//         center: fern_residency,
 //         scrollwheel: false
 //     });
 
 //     var marker = new google.maps.Marker({
-//         position: la_fiesta,
+//         position: fern_residency,
 //         map: map
 //     });
 // }
